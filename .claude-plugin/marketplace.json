@@ -1,0 +1,27 @@
+{
+  "name": "lamemind",
+  "owner": {
+    "name": "lamemind"
+  },
+  "metadata": {
+    "description": "I plugin di lamemind per Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "loom-works",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lamemind/loom-works-plugin.git"
+      },
+      "description": "Lane / Task management with coupled documentation lifecycle"
+    },
+    {
+      "name": "meet-secretary",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lamemind/meet-secretary-plugin.git"
+      },
+      "description": "Segretario dei meet Teams: meet-recorder registra i sottotitoli, la pulizia li corregge e sveglia Claude Code sugli eventi del meet"
+    }
+  ]
+}
